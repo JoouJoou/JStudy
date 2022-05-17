@@ -1,0 +1,50 @@
+body {
+  background-color: #205763;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: white;
+  max-width: 500px;
+  margin: 20vh auto;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.container h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.tabela {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.line {
+  display: flex;
+  gap: 10px;
+}
+
+.calculadora {
+  max-width: 400px;
+}
+
+.display {
+  font-size: 2em;
+  width: 100%;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.btn,
+.btn-num,
+.btn-clear {
+  width: 100%;
+  min-height: 50px;
+  cursor: pointer;
+  font-size: 1em;
+  border: none;
+}
